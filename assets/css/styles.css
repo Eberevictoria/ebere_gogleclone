@@ -1,0 +1,1035 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    margin: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-left {
+    display: flex;
+    width: 60%;
+}
+
+.google-logo {
+    width: 92px;
+    height: 30px;
+    margin: 0.5rem 2rem 0 2rem;
+}
+
+.searchbar-name {
+    display: inline;
+    position: relative;
+    top: 5px;
+}
+
+.searchbar {
+    padding: 0.7rem 1rem;
+    background-color: #fff;
+    box-shadow: 1px 2px 8px rgb(208, 207, 207);
+    border-radius: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchbar:hover {
+    box-shadow: 2px 2px 8px rgb(163, 162, 162);
+}
+
+.fa-search-icons {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.vl {
+    display: inline-block;
+    border-left: 1px solid rgb(206, 205, 205);
+    height: 1.5rem;
+    padding-right: 1rem;
+    position: relative;
+    top: 2px;
+}
+
+.google-pfp {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+    padding: 3px;
+}
+.google-pfp:hover {
+    background-color: rgb(227, 225, 225);
+}
+
+.fa-navicons {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    padding: 8px;
+    border-radius: 50%;
+}
+.fa-navicons:hover {
+    background-color: rgb(246, 242, 242);
+}
+
+.navbar-bottom {
+    display: flex;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.navbar-bottom-links {
+    display: inline-block;
+    margin: 6px;
+}
+
+.navlink-all {
+    color: #1a73e8;
+}
+
+.navbar-bottom-nav-all {
+    border-bottom: 3px solid #1a73e8;
+}
+
+.navbar-bottom-nav {
+    margin-right: 1.5rem;
+    color: rgb(136, 133, 133);
+}
+
+.tools-container {
+    margin-left: 10rem;
+}
+
+.tools-btn {
+    padding: 5px 8px;
+    color: rgb(136, 133, 133);
+    background-color: #fff;
+    border: none;
+    font-size: 1rem;
+}
+.tools-btn:hover {
+    color: #000;
+    background-color: rgb(241, 240, 240);
+    border: 0.1px solid rgb(200, 199, 199);
+}
+
+.navbar-hr {
+    margin: -1rem -2rem;
+    border-top: 0.1px solid rgb(225, 224, 224);
+}
+
+
+/* Main Section */
+
+main {
+    margin: 1.8rem 0;
+}
+
+.results-time {
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(136, 133, 133);
+    margin: 0 10rem;
+}
+
+.overview-navigation {
+    margin: 2rem 10rem 0;
+    display: flex;
+}
+
+.overview-navigation h1 {
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.overview-navigation p {
+    display: inline-block;
+    margin-right: 1rem;
+    color: rgb(98, 96, 96);
+}
+
+.overview-navigation i {
+    color: #000;
+}
+
+.overview-buttons {
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+
+.overview-buttons button {
+    margin-right: 0.2rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 100px;
+    color: #0060f0;
+    background-color: #e2eeff;
+    border: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.overview-buttons button:hover {
+    background-color: #c2dbff;
+}
+
+.overview-buttons .overview-btn {
+    border: 1px solid #0060f0;
+}
+.overview-buttons .overview-btn:hover {
+    background-color: #e2eeff;
+}
+.messi-img1 {
+    position: relative;
+}
+.messi1-text-overlay {
+    font-size: 12px;
+    padding-left: 15px;
+    position: absolute;
+    bottom: 1rem;
+}
+.messi1-text-overlay a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.messi1 {
+    width: 260px;
+    height: 340px;
+    border-radius: 20px 0 0 20px;
+}
+.messi2 {
+    border-radius: 0 20px 0 0;
+    width: 260px;
+    height: 168px;
+}
+
+.messi-img3 {
+    position: relative;
+}
+.messi3-text-overlay {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+}
+.messi3-text-overlay a {
+    color: #fff;
+}
+
+.messi3 {
+    width: 260px;
+    height: 168px;
+    border-radius: 0 0 20px 0;
+}
+
+.overview-image-grid1 {
+    display: inline-flex;
+    gap: 3px;
+    margin-left: 12rem;
+}
+
+.overview-grid-container {
+    display: flex;
+    margin-top: 1.5rem;
+    background-image: linear-gradient(
+        to right, rgba(250, 249, 249, 0), rgb(230, 238, 254), rgba(250, 249, 249, 0));
+    background-image: linear-gradient(
+        to bottom, rgba(250, 249, 249, 0), rgb(230, 238, 254));
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding-bottom: 1rem;
+}
+
+.overview-video-container {
+    margin-left: 1rem;
+    border-radius: 20px;
+}
+
+.overview-video {
+    border-radius: 20px 20px 0 0;
+}
+
+.video-text-container {
+    background-color: #fff;
+    width: 260px;
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+}
+
+.video-text-container span {
+    color: rgb(92, 91, 91);
+    font-size: 12px;
+}
+
+.video-first-paragraph {
+    font-size: 14px;   
+    margin-top: 0.8rem;
+}
+.video-second-paragraph {
+    font-size: 12px;
+    margin-top: 0.3rem;
+}
+
+.video-timeframe {
+    font-size: 12px;
+    margin-top: 4rem;
+    color: rgb(92, 91, 91);
+}
+
+.personal-info-container {
+    margin-right: 10rem;
+}
+
+.age-spouse-container {
+    display: flex;
+}
+
+.age, .spouse {
+    margin-bottom: 5rem;
+}
+
+.age-info-container, .spouse-info-container {
+    background-color: #e2eeff;
+    margin-left: 0.9rem;
+    padding: 10px;
+    width: 140px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.mirror-news-container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 12px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.mirror-img {
+    border-radius: 20px;
+    width: 120px;
+    height: 130px;
+    margin-left: 0.9rem;
+}
+
+.mirror-text-container {
+    width: 125px;
+}
+
+.mirror-text-container span {
+    color: rgb(92, 91, 91);
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 2rem;
+}
+
+.mirror-text-container p {
+    margin-top: 1rem;
+    margin-bottom: 2.6rem;
+    line-height: 1.2;
+}
+
+/* Top Stories Section */
+
+.top-stories-section {
+    margin-left: 10rem;
+    margin-top: 4rem;
+    display: flex;
+}
+
+.news-psg h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.news-psg h5 a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(75, 74, 74);
+    line-height: 2;
+    text-decoration: none;
+}
+.news-psg h5 a:hover {
+    text-decoration: underline;
+}
+
+.gms-psg {
+    margin-top: 0.5rem;
+    border-top: 1px solid rgb(238, 237, 237);
+    width: 68%;
+    display: flex;
+}
+
+.givemesport, .mirror-sky {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}
+
+.gms-messi-img {
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+.gms-messi-img:first-of-type {
+    width: 340px;
+}
+
+.sportlogo {
+    display: block;
+}
+
+.givemesport a, .mirror-psg a, .skysports-psg a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #1a0dab;
+    line-height: 1.8;
+}
+.givemesport a:hover, .mirror-psg a:hover, .skysports-psg a:hover {
+    text-decoration: underline;
+}
+
+.mirror-psg a, .skysports-psg a {
+    width: 70%;
+    display: inline-block;
+}
+
+.mirrorsky-messi-img {
+    margin-bottom: -0.5rem;
+}
+
+.mirror-sky {
+    border-left: 1px solid rgb(238, 237, 237);
+    padding: 1rem;
+}
+
+.skysports-psg {
+    border-top: 1px solid rgb(238, 237, 237);
+    padding-top: 1rem;
+}
+
+.mirror-psg {
+    padding-bottom: 1rem;
+}
+
+.givemesport p, .mirror-psg p, .skysports-psg p {
+    color: rgb(100, 100, 100);
+    margin-top: 0.3rem;
+}
+.givemesport p {
+    margin-top: 1.5rem;
+}
+
+.dp-ss {
+    display: flex;
+    margin-top: 0.5rem;
+    border-top: 1px solid rgb(238, 237, 237);
+    width: 68%;
+}
+
+.dailypost, .sportskeeda {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}
+
+.sportskeeda {
+    border-left: 1px solid rgb(238, 237, 237);
+    padding-left: 1rem;
+}
+
+.dailypost a, .sportskeeda a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #1a0dab;
+    line-height: 1.8;
+    width: 70%;
+    display: inline-block;
+}
+.dailypost a:hover, .sportskeeda a:hover {
+    text-decoration: underline;
+}
+
+.dailypost p, .sportskeeda p {
+    color: rgb(100, 100, 100);
+    margin-top: 0.3rem;
+}
+
+.dp-ss-img {
+    border-radius: 10px;
+}
+
+.morenews-container {
+    border-top: 1px solid rgb(238, 237, 237);
+    margin-top: 3rem;
+    width: 68%;
+}
+
+.morenews p a {
+    background-color: rgb(238, 237, 237);
+    padding: 0.5rem 6rem;
+    border-radius: 20px;
+    display: inline-block;
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+}
+.morenews p a:hover {
+    background-color: rgb(213, 208, 208);
+}
+
+.morenews {
+    position: relative;
+    left: 28%;
+    bottom: 1rem;
+}
+
+/* About Section */
+
+.about {
+    width: 30%;
+    margin-left: -20rem;
+    margin-right: 10rem;
+    border-left: 1px solid rgb(238, 237, 237);
+    padding-left: 2rem;
+}
+
+.about h6 {
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.bio {
+    font-size: 0.87rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(73, 73, 73);
+}
+
+.bio-links {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.bio-links:hover {
+    text-decoration: underline;
+}
+
+.about p {
+    font-size: 0.87rem;
+    line-height: 1.2;
+    margin-top: 0.5rem;
+    color: rgb(73, 73, 73);
+}
+
+.about span {
+    font-weight: 600;
+}
+
+.knowledge-panel {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(238, 237, 237);
+    padding-bottom: 0.7rem;
+    margin-top: 0.5rem;
+}
+
+.fa-shield {
+    color: #1a73e8;
+}
+
+.kp {
+    border: 1px solid rgb(209, 209, 209);
+    padding: 0.3rem 0.6rem;
+    border-radius: 20px;
+}
+.kp a {
+    text-decoration: none;
+    color: rgb(39, 38, 38);
+}
+.kp:hover {
+    background-color: #f7f9ff;
+}
+
+.knowledge-panel .feedback a {    
+    font-size: 10px;
+    color: rgb(134, 134, 134);
+    position: relative;
+    top: 12px;
+    text-decoration: none;
+}
+
+/* Social Media Profiles */
+
+.profiles {
+    margin: 0.5rem 0 0.1rem;
+    font-size: 1.2rem;
+}
+
+.sm-profiles {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid rgb(238, 237, 237);
+}
+.sm-profiles a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.7rem;
+}
+
+.sm-profiles a:hover {
+    text-decoration: underline;
+}
+
+.ig-profile-logo {
+    width: 30px;
+    height: 30px;
+    margin: 0.5rem 0.8rem 0.55rem;
+}
+.yt-profile-logo {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 0.1rem;
+}
+.fb-profile-logo {
+    width: 41px;
+    height: 44px;
+    margin: 0.19rem 0.1rem 0;
+
+}
+
+/* Other Searches */
+
+.othersearches {
+    margin: 0.5rem 0;
+}
+
+.othersearches-pfp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.othersearches-pfp div {
+    width: 75px;
+}
+
+.othersearches-pfp a {
+    font-size: 0.8rem;
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+}
+
+.othersearches-pfp a:hover {
+    text-decoration: underline;
+}
+
+.othersearches-pfp img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.seemore p a {
+    background-color: rgb(238, 237, 237);
+    padding: 0.5rem 6.5rem;
+    border-radius: 20px;
+    display: inline-block;
+    color: rgb(44, 44, 44);
+    text-decoration: none;   
+}
+.seemore p a:hover {
+    background-color: rgb(213, 208, 208);
+}
+
+/* Wikipedia * Forbes Section */
+
+.wikipedia-section, .forbes-section {
+    margin: 1rem 0 2.5rem 10rem;
+    width: 48%;
+}
+
+.wiki-web-link, .forbes-web-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.wiki-web-link-gray, .forbes-web-link-gray {
+    color: rgb(84, 81, 81);
+}
+.ellipsis-wiki, .ellipsis-forbes {
+    margin-left: 2rem;
+}
+
+.messi-name-wiki a, .messi-name-forbes a {
+    line-height: 2;
+    text-decoration: none;
+    color: #120883;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.messi-name-wiki a:hover, .messi-name-forbes a:hover {
+    text-decoration: underline;
+}
+
+.messi-profile-wiki, .messi-profile-forbes {
+    color: rgb(62, 62, 62);
+    line-height: 1.5;
+    font-size: 0.95rem;
+}
+.messi-profile-wiki span, .messi-profile-forbes span {
+    color: rgb(102, 100, 100);   
+}
+
+.wiki-el-cc a {
+    text-decoration: none;
+    color: #120883;
+    font-size: 0.95rem;
+}
+.wiki-el-cc a:hover {
+    text-decoration: underline;
+}
+
+/* Stats Section */
+
+.stats-section {
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+}
+.stats-section h3 {
+    font-weight: 400;
+    color: rgb(87, 87, 87);
+}
+
+.stats-table {
+    margin-left: 1rem;
+}
+
+.stats-table .st-psg {
+    text-decoration: none;
+    line-height: 2;
+}
+.stats-table .st-psg:hover {
+    text-decoration: underline;
+}
+
+table td {
+    padding: 0.5rem 3rem 0.5rem 0;
+    border-bottom: 1px solid rgb(111, 111, 111);   
+}
+
+thead td {
+    color: rgb(111, 111, 111);
+}
+
+tbody td {
+    padding-left: 0.5rem;
+}
+tbody td:first-of-type {
+    padding-left: 0;
+}
+
+.league-year {
+    font-size: 0.8rem;
+    color: rgb(111, 111, 111);
+}
+
+/* People Also Ask */
+
+.people-also-ask {
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+    width: 48%;
+}
+
+.paa-title {
+    font-size: 1.4rem;
+}
+
+.question-tile {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    border-top: 1px solid rgb(206, 206, 206);
+    padding-top: 0.5rem;
+}
+
+.people-also-ask a {
+    text-decoration: none;
+    color: rgb(47, 47, 47);
+}
+
+.fdbk-hr-container {
+    display: flex;
+    justify-content: space-between;
+}
+.fdbk-hr-container p {
+    color: rgb(129, 129, 129);
+}
+
+.fdbk-hr {
+    border-top: 1px solid rgb(206, 206, 206);
+    width: 88%;
+    margin-top: 0.5rem;
+}
+
+.fcbarcelona {
+    display: flex;
+}
+
+.fcb-img {
+    border-radius: 10px;
+    width: 90px;
+    height: 90px;
+}
+
+/* Videos Section */
+
+.videos-section {
+    margin-left: 10rem;
+    width: 48%;
+}
+
+.videos-section h3 {
+    margin-bottom: 1rem;
+    font-weight: 400;
+    color: rgb(59, 59, 59);
+}
+
+.vs-video-container {
+    border-top: 1px solid rgb(232, 232, 232);  
+    padding-top: 0.5rem; 
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.vs-video-container iframe {
+    border-radius: 7px;
+}
+
+.vs-text-container {
+    margin-left: 1rem;
+    line-height: 1.5;
+}
+
+.vs-text-container a {
+    text-decoration: none;
+}
+.vs-text-container a p {
+    margin-bottom: 1rem;
+}
+
+.vs-tc-ss span, .vc-tc-time {
+    color:  rgb(109, 109, 109);
+}
+
+.viewall-container {
+    border-top: 1px solid rgb(238, 237, 237);
+    margin-top: 2rem;
+}
+
+.viewall p a {
+    background-color: rgb(238, 237, 237);
+    padding: 0.5rem 6rem;
+    border-radius: 20px;
+    display: inline-block;
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+}
+.viewall p a:hover {
+    background-color: rgb(213, 208, 208);
+}
+
+.viewall {
+    position: relative;
+    left: 28%;
+    bottom: 1rem;
+}
+
+/* Marca Section */
+
+.marca-img-container img {
+    height: 145px;
+    width: 170px;
+}
+
+.marca-img-container img:first-of-type {
+    border-radius: 10px 0 0 10px;
+}
+.marca-img-container img:last-of-type {
+    border-radius: 0 10px 10px 0;
+}
+
+/* Related Searches */
+.question-tile p img {
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+/* New Searches */
+.new-search {
+    margin-left: 10rem;
+    width: 48%;
+    display: flex;
+}
+
+.ns-searchbox p {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}
+
+.ns-searchbox p a {
+    background-color: #f1f3f4;
+    padding: 1rem 4.5rem 1rem 2rem;
+    border-radius: 30px;
+    display: block;
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+}
+.ns-searchbox a:hover {
+    text-decoration: underline;
+}
+
+.ns-search-icons {
+    margin-right: 2rem;
+}
+
+.google-other-pages {
+    margin-left: 21rem;
+    margin-top: 3rem;
+}
+
+.go10gle {
+    font-family: 'montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.go10gle a {
+    text-decoration: none;
+}
+
+.go10gle p span {
+    margin-right: -0.6rem;
+}
+
+.g-blue {
+    color: #4285f4;
+}
+.o-red {
+    color: rgb(214, 24, 24);
+}
+.o-yellow {
+    color: rgb(255, 208, 0);
+}
+.l-green {
+    color: rgb(1, 164, 1);
+}
+.e-red {
+    color: rgb(214, 24, 24);
+}
+.ar-blue {
+    color: #4285f4;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.go10gle-page-numbers {
+    margin-left: 2rem;
+    
+}
+
+.go10gle-page-numbers p span {
+    padding-right: 6.5px;
+    font-size: 15px;
+}
+.go10gle-page-numbers p span:last-of-type {
+    margin-left: 2.6rem;
+}
+
+.go10gle-page-numbers p span a {
+    color: #4285f4;
+    text-decoration: none;
+}
+.go10gle-page-numbers p span a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+
+footer{
+    background-color: #f1f3f4;
+    margin: 0 -2rem -2rem -2rem;
+    padding: 1rem 13rem;
+    font-size: 14px;
+}
+
+.ftr-location {
+    display: flex;
+}
+
+.ftr-location .nigeria {
+    padding: 0.5rem 1rem 0.5rem 0;
+    border-right: 1px solid rgb(206, 206, 206);
+    color: #70757a;
+    font-size: 15px;
+}
+
+.ftr-location .enugu-north {
+    padding: 0.5rem 1rem;
+}
+
+.ftr-location .enugu-north a {
+    text-decoration: none;
+}
+
+.en {
+    font-weight: bold;
+    color: #4d5156;
+}
+.fa-circle {
+    font-size: 0.7rem;
+}
+
+.update-location {
+    color: #1a0dab;
+}
+
+.ftr-help {
+    border-top: 1px solid rgb(206, 206, 206);
+    margin: 0 -13rem;
+    font-size: 14px;
+    color: #70757a;
+}
+
+.ftr-help p {
+    padding: 1rem 13rem 0;
+}
+
+.ftr-help p a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #70757a;
+}
+
+.ftr-help p a :hover {
+    color: #4d5156;
+}
+
+.ftr-help p a span {
+    margin-right: 1.4rem;
+}
